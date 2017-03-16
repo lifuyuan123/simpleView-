@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<azsecuer.zhuoxin.com.myapplication.CustomTitleView
+    android:layout_centerInParent="true"
+    custom:titleText="1234"
+    custom:titleTextColor="@color/colorAccent"
+    custom:titleTextSize="20dp"
+    android:layout_width="100dp"
+    android:layout_height="50dp" />
+    <azsecuer.zhuoxin.com.myapplication.MyView
+        android:background="@color/colorAccent"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+    <!--<azsecuer.zhuoxin.com.myapplication.MyText-->
+        <!--android:gravity="center"-->
+        <!--android:text="text"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp" />-->
+
+        <include layout="@layout/topbar"/>
+
+    <!--<azsecuer.zhuoxin.com.myapplication.MyYuan-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="150dp"></azsecuer.zhuoxin.com.myapplication.MyYuan>-->
+<azsecuer.zhuoxin.com.myapplication.MyWatch
+    android:id="@+id/watch"
+    android:layout_width="200dp"
+    android:layout_height="200dp" />
+</LinearLayout>
+
